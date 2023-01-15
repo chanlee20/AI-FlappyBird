@@ -41,5 +41,7 @@ The birds with the higher fitness values will be selected to be breaded and muta
 
 Reference:
 https://nn.cs.utexas.edu/downloads/papers/stanley.cec02.pdf
+
 https://neat-python.readthedocs.io/en/latest/config_file.html
+
 https://www.youtube.com/watch?v=MPFWsRjDmnU
