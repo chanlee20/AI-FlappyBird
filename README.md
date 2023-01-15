@@ -18,7 +18,6 @@ The next question that would naturally come out is how do we define "best" birds
 If the bird crashes, we would decrease the fitness value of that bird
 
 ```
-
 if(pipe.collide(bird, win)):
                     ge[x].fitness -= 1
                     birds.pop(x)
@@ -28,15 +27,13 @@ if(pipe.collide(bird, win)):
 
 If a new pipe is generated, it indicates that the bird successfully passed the previous one
 
-'''
-
+```
 if add_pipe:
             score += 1
             for g in ge:
                 g.fitness += 5
-            pipes.append(Pipe(600))
-            
-'''
+            pipes.append(Pipe(600))           
+```
 
 The birds with the higher fitness values will be selected to be breaded and mutated to create the 100 offsprings for the next generation.
 
