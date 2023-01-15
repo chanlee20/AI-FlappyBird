@@ -10,9 +10,13 @@ Demo:
 https://user-images.githubusercontent.com/70008295/212560994-b9afe383-dfb4-4f72-b6e5-dbe7321343f8.mp4
 
 
+
 NEUROEVOLUTION OF AUGMENTING TOPOLOGIES (NEAT) AI to Flappy Bird:
+
 The NEAT AI emphasizes the use of Neural Evolution (NE) which uses artificial evolution of neural networks to optimize reinforcement of learning tasks. In order to generate good neural networks, we need good inputs. Good inputs mean valuable information that the AI needs to know in order to pass on to the next offsprings. For our flappy bird game, good inputs include the position of the bird, top pipe, and bottom pipe. Our outputs will be the response to the inputs which would be the bird jumping in order to climb up and down its position.
+
 For our NEAT AI, we also need to set the population size. The population size refers to the population of the neural networks that we will start with in each geneartion. For example, if the population size is 100 for the flappy bird game, then we will have 100 birds, or neural networks, that will the play the game. We will select the best birds out of the 100 birds and mutate them, breed them, and create another set of 100 birds (neural networks) that will play for the next generation.
+
 The next question that would naturally come out is how do we define "best" birds? To answer this question, the NEAT AI came up with fitness functions which are ways to calculate whether the birds acted in a desirable fashion or not. In the flappy bird game, the best way would be to compare which  bird went furthest without crashing on the pipe. 
 
 If the bird crashes, we would decrease the fitness value of that bird
