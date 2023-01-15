@@ -16,6 +16,7 @@ For our NEAT AI, we also need to set the population size. The population size re
 The next question that would naturally come out is how do we define "best" birds? To answer this question, the NEAT AI came up with fitness functions which are ways to calculate whether the birds acted in a desirable fashion or not. In the flappy bird game, the best way would be to compare which  bird went furthest without crashing on the pipe. 
 
 If the bird crashes, we would decrease the fitness value of that bird
+
 '''
 if(pipe.collide(bird, win)):
                     ge[x].fitness -= 1
@@ -25,6 +26,7 @@ if(pipe.collide(bird, win)):
 '''
 
 If a new pipe is generated, it indicates that the bird successfully passed the previous one
+
 '''
 if add_pipe:
             score += 1
