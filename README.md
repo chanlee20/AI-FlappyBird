@@ -1,6 +1,7 @@
 # AI-FlappyBird
 
 Description:
+Flappy bird game with a NEAT AI that produces generations of offsprings that will learn itself how to play the game by increasing and decreasing its fitness value based on the desirability of the action.
 
 
 Demo:
@@ -8,10 +9,6 @@ Demo:
 
 https://user-images.githubusercontent.com/70008295/212560994-b9afe383-dfb4-4f72-b6e5-dbe7321343f8.mp4
 
-
-
-
-Flappy bird game with a NEAT AI that produces generations of offsprings that will learn itself how to play the game by increasing and decreasing its fitness value based on the desirability of the action.
 
 NEUROEVOLUTION OF AUGMENTING TOPOLOGIES (NEAT) AI to Flappy Bird:
 The NEAT AI emphasizes the use of Neural Evolution (NE) which uses artificial evolution of neural networks to optimize reinforcement of learning tasks. In order to generate good neural networks, we need good inputs. Good inputs mean valuable information that the AI needs to know in order to pass on to the next offsprings. For our flappy bird game, good inputs include the position of the bird, top pipe, and bottom pipe. Our outputs will be the response to the inputs which would be the bird jumping in order to climb up and down its position.
