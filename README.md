@@ -17,15 +17,14 @@ The next question that would naturally come out is how do we define "best" birds
 
 If the bird crashes, we would decrease the fitness value of that bird
 
-'''
+```
 
 if(pipe.collide(bird, win)):
                     ge[x].fitness -= 1
                     birds.pop(x)
                     nets.pop(x)
                     ge.pop(x)
-                    
-'''
+```
 
 If a new pipe is generated, it indicates that the bird successfully passed the previous one
 
