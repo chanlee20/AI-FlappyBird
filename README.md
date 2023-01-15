@@ -5,7 +5,11 @@ Description:
 
 Demo:
 
-https://user-images.githubusercontent.com/70008295/212559798-082f538a-3f15-4f15-a4b5-ee93282a0959.mp4
+
+https://user-images.githubusercontent.com/70008295/212560994-b9afe383-dfb4-4f72-b6e5-dbe7321343f8.mp4
+
+
+
 
 Flappy bird game with a NEAT AI that produces generations of offsprings that will learn itself how to play the game by increasing and decreasing its fitness value based on the desirability of the action.
 
